@@ -3,7 +3,7 @@ const fruitList = [
 ]
 
 const Fruits = () => (
-	<ul>
+	<ul className="exercise">
 		{fruitList.map( oneFruit => (
 			<li key={oneFruit}> {oneFruit} </li>
 		) )}
