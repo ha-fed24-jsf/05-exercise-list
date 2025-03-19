@@ -1,0 +1,15 @@
+.name-color {
+	background-color: rgb(230, 209, 249);
+	padding: 0.7em 1em;
+	border-radius: 0.4em;
+	display: flex;
+	flex-direction: column;
+	width: 12em;
+
+	p {
+		margin: 0;
+	}
+	button {
+		padding: 0.2em 2.2em;
+	}
+}
